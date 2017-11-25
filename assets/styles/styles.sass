@@ -1,12 +1,31 @@
+//VAR
+
+//SASS
 body
 	min-height: 200vh
+	z-index: 1
+	nav
+		position: fixed
+		z-index: 1000
 #logo
 	padding-left: 10px
 	font-size: 1.6955em
+.container
+	padding-top: 50px
 .parallax-container
 	min-width: 100%
 .thin-text
 	font-weight: 300
-	background: rgba(29, 233, 182, 0.7)
+	background: rgba(0, 175, 255, 0.7)
 	padding: 40px
 	border-radius: 5px
+/* invalid color */
+.input-field input[type=text].invalid 
+	border-bottom: 1px solid red
+	box-shadow: 0 1px 0 0 #000
+
+/* icon prefix focus color */
+.input-field .prefix.active 
+	color: #009688 
+
+        

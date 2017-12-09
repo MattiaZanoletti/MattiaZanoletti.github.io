@@ -1,7 +1,9 @@
 $(document).ready(function(){
-	$('.parallax').parallax();
-	$(".button-collapse").sideNav();
+  $(".button-collapse").sideNav({closeOnClick: true})
+  $('.modal').modal();
+
 });
+
 // Select all links with hashes
 $('a[href*="#"]')
   // Remove links that don't actually link to anything
